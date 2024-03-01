@@ -1,7 +1,7 @@
 {
     "name": "quiz-app",
     "version": "1.0.0",
-    "homepage": "https://gitname.github.io/react-gh-pages",
+    "homepage": "https://bosalinas.github.io/quizapp",
     "description": "",
     "main": "server/server.js",
     "scripts": {
@@ -11,7 +11,7 @@
         "seed": "cd server && npm run seed",
         "build": "cd client && npm run build",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d client/build"
     },
     "author": "",
     "license": "ISC",
