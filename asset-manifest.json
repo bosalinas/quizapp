@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fcc547ef.css",
+    "main.js": "/static/js/main.d3d97ebc.js",
+    "static/media/Frogboy2.png": "/static/media/Frogboy2.9d77c0a30f366bcbb943.png",
+    "static/media/profileIcon.png": "/static/media/profileIcon.345ac9f172fe90b98c0c.png",
+    "index.html": "/index.html",
+    "main.fcc547ef.css.map": "/static/css/main.fcc547ef.css.map",
+    "main.d3d97ebc.js.map": "/static/js/main.d3d97ebc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcc547ef.css",
+    "static/js/main.d3d97ebc.js"
+  ]
+}
