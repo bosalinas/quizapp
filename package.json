@@ -1,6 +1,7 @@
 {
     "name": "quiz-app",
     "version": "1.0.0",
+    "homepage": "https://gitname.github.io/react-gh-pages",
     "description": "",
     "main": "server/server.js",
     "scripts": {
@@ -8,7 +9,9 @@
         "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
         "install": "cd server && npm i && cd ../client && npm i",
         "seed": "cd server && npm run seed",
-        "build": "cd client && npm run build"
+        "build": "cd client && npm run build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "author": "",
     "license": "ISC",
@@ -23,5 +26,8 @@
     "engines": {
         "node": "18.16.0",
         "npm": "9.5.1"
+    },
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
     }
 }
